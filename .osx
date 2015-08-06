@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+alias txopen="open -a TextWrangler"
+exit
+
 # ~/.osx — http://mths.be/osx
 
 # Ask for the administrator password upfront
