@@ -10,18 +10,9 @@
 	editor = vi
 	autocrlf = input
 [alias]
-	co = checkout
-	ci = commit
-	br = branch
-	st = status
-	us = reset HEAD --
-	rv = checkout --
-  mom = merge origin/master
-  rom = rebase origin/master
   ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
   ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
   lg = log --graph --oneline --decorate --all
-	s = status -s
 [push]
 	default = simple
 [difftool "sourcetree"]
