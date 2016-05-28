@@ -1,0 +1,11 @@
+export PROFILE_HOME=~/dev/git-signom/morits
+export PROFILE_EXEC=$CATALINA_HOME
+export PROFILE_TMUX=~/tmux/morits_local.session
+
+alias pld='/Users/cbrandt/dev/git-signom/morits/backstage/pilde/pilde.sh'
+
+alias rollback=$PROFILE_HOME/backstage/database_utils/rollback.sh
+alias snapshot=$PROFILE_HOME/backstage/database_utils/snapshot.sh
+alias selenium="cd $PROFILE_HOME/tests/tools;groovy Selenium"
+
+export MORITS_HOME=$PROFILE_HOME

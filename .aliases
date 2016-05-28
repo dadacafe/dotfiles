@@ -84,4 +84,6 @@ alias reload="exec $SHELL -l"
 # Convenience alias for opening TextWrangler
 alias txopen="open -a TextWrangler"
 
+alias pf='source ~/profiles/profile.sh'
+
 

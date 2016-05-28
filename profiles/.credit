@@ -1,0 +1,10 @@
+export PROFILE_HOME=~/dev/git-signom/creditcheck
+export PROFILE_EXEC=/usr/local/apache-tomcat
+export PROFILE_TMUX=~/tmux/creditcheck_local.session
+
+alias pld='/Users/cbrandt/dev/git-signom/morits/backstage/pilde/pilde.sh'
+
+alias rollback=$PROFILE_HOME/backstage/database_utils/rollback.sh
+alias snapshot=$PROFILE_HOME/backstage/database_utils/snapshot.sh
+alias selenium="cd $PROFILE_HOME/tests/tools;groovy Selenium"
+

@@ -1,0 +1,4 @@
+PROFILE_HOME=~/dev/git-dadacafe/dotfiles/
+PROFILE_EXEC=/usr/local/apache-tomcat
+
+export PROFILE_HOME
