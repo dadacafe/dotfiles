@@ -1,20 +1,17 @@
-# Tomcat
-export CATALINA_HOME=/usr/local/apache-tomcat
+# brew info coreutils
+PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
-# Ant 
-PATH=$PATH:/usr/local/apache-ant-1.9.3/bin
+# brew info gnu-tar
+PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
+MANPATH="/usr/local/opt/gnu-tar/share/man:$MANPATH"
 
-# Google Go
-export GOPATH=~/dev/go
-export GOBIN=$GOPATH/bin
-export PATH=$PATH:$GOBIN
+# brew info gnu-sed
+PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+MANPATH="/usr/local/opt/gnu-sed/libexec/gnuman:$MANPATH"
 
-# Gradle
-# export GRADLE_HOME=/usr/local/gradle-2.6
-# export PATH=$PATH:$GRADLE_HOME/bin
+# postgres
+PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
 
-PATH=$PATH:/usr/local/mysql/bin
-
-export GOPATH
 export PATH
 export MANPATH
